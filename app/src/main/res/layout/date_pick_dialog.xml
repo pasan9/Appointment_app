@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lblPick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+  <!--  <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Pick a date to move appointment:"
+        android:textSize="18sp" />
+        -->
+
+    <CalendarView
+        android:layout_marginTop="15dp"
+        android:id="@+id/calendar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move Appointment"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:background="@drawable/rounded_button"
+        style="?android:attr/borderlessButtonStyle"
+        />
+</LinearLayout>

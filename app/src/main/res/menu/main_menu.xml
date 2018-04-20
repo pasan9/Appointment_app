@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/createApt"
+        android:title="Create Appointment"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/editApt"
+        android:title="View/Edit Appointments"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/deleteApt"
+        android:title="Delete Appointments"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/moveApt"
+        android:title="Move Appointmets"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/searchApt"
+        android:title="Search"
+        app:showAsAction="never"/>
+
+
+
+</menu>
